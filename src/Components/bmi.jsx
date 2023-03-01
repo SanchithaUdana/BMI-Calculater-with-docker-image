@@ -30,13 +30,14 @@ class Bmi extends Component {
      resultStyle ={
         fontSize : 25,
      }
+     
 
      // main 
     render() { 
         return (
 
             <div>
-                
+                <div styles="border: 10px solid black;">
                 <center>
 
                 <hr width='30%' />
@@ -97,7 +98,7 @@ class Bmi extends Component {
                     
                     
                 </center>
-
+                </div>
             </div>
 
         );
