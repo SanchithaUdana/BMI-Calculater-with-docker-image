@@ -172,7 +172,7 @@ class Bmi extends Component {
         }
     }
 
-    // reset button
+    // bmi value reset
     resetB = () => {
         this.setState({bmi: this.state.bmi = 0});
         this.setState({result : this.state.result = "Enter Values First" })
