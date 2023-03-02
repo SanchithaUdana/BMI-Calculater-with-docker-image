@@ -37,7 +37,7 @@ class Bmi extends Component {
         return (
 
             <div>
-                <div styles="border: 10px solid black;">
+                <div class="border border-dark">
                 <center>
 
                 <hr width='30%' />
