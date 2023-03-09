@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 
+
 class Bmi extends Component {
     state = { 
         bmi : 0,
@@ -37,9 +38,9 @@ class Bmi extends Component {
         return (
 
             <div>
+                
                 <div class="border border-dark">
                 <center>
-
                 <hr width='30%' />
                 <a href="https://en.wikipedia.org/wiki/Body_mass_index" target="_blank">
                 <img src="https://i0.wp.com/cdn-prod.medicalnewstoday.com/content/images/articles/306/306129/bmi-for-men-and-women.png?w=1155&h=735" width={this.pictDe.width} height={this.pictDe.height} alt="Body Mass Index" />
@@ -93,18 +94,19 @@ class Bmi extends Component {
 
                 <br />
                 <br />
+
+                
+
                 <p>@ 2023.02.28 React Trainig - FlexyCode </p>
                 <hr width='30%' />
                     
-                    
+                
                 </center>
                 </div>
             </div>
 
         );
     }
-
-    
 
     // bmi value calculater
     bmiCal = () =>{
